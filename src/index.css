@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+    @apply font-bold;
+    @apply text-white;
+  }
+
+  button {
+    @apply text-white border rounded-md;
+  }
+
+  #homeBanner {
+    background-image: url("./assets/background-blue.png");
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Rubik+Mono+One&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
