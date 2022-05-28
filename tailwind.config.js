@@ -7,13 +7,11 @@ module.exports = {
       },
       colors: {
         white: "#fff",
-        blue: "#1fb6ff",
-        pink: "#ff49db",
-        orange: "#ff7849",
-        green: "#13ce66",
-        grayDark: "#273444",
-        gray: "#8492a6",
-        grayLight: "#d3dce6",
+        blue: "#1197BA",
+        darkblue: "#0676AC",
+      },
+      fontFamily: {
+        sans: ["Montserrat", "sans-serif"],
       },
     },
   },

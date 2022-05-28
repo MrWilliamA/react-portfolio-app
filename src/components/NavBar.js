@@ -10,99 +10,89 @@ const NavBar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="w-screen md:px-20 lg:px-40 h-[100px] z-10 drop-shadow-lg ">
+    <div className="navBar w-screen md:px-20 lg:px-40 h-[100px] z-10 drop-shadow-lg ">
       <div className="flex items-center justify-between space-y-0.5 h-[100px]">
         <div>
-          <img
-            src={logo}
-            alt="Will Archer Logo"
-            className="w-[75px] menu:hidden" //this works
-          />
+          <a href="/">
+            <img src={logo} alt="Will Archer Logo" className="w-[75px]" />
+          </a>
         </div>
         <div>
           <ul className="hidden md:flex">
-            {/* //this no longer works */}
-            <li>
+            <li className="text-black menu:text-white">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            <li className="text-black menu:text-white">
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
-            <li>
+            <li className="text-black menu:text-white">
               <NavLink to="/blog">Blog</NavLink>
             </li>
-            <li>
+            <li className="text-black menu:text-white">
               <NavLink to="/about">About Me</NavLink>
             </li>
-            <li>
+            <li className="text-black menu:text-white">
               <NavLink to="/hireme">Hire Me</NavLink>
             </li>
           </ul>
         </div>
-      </div>
-      <div
-        className="md:hidden mr-4 hover:cursor-pointer"
-        onClick={handleClick}
-      >
-        {!nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
-      </div>
 
-      <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
-        <li className="border-b-2 border-zinc-300 w-full">
-          <NavLink onClick={handleClose} to="home" smooth={true} duration={500}>
+        <div
+          className="md:hidden mr-4 hover:cursor-pointer"
+          onClick={handleClick}
+        >
+          {!nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
+        </div>
+      </div>
+      <ul className={!nav ? "hidden" : "absolute bg-white w-full px-8"}>
+        <li className="text-blue border-b-2 border-zinc-300 w-full">
+          <NavLink onClick={handleClose} to="/">
             Home
           </NavLink>
         </li>
-        <li className="border-b-2 border-zinc-300 w-full">
-          <NavLink
-            onClick={handleClose}
-            to="about"
-            smooth={true}
-            offset={-200}
-            duration={500}
-          >
+        <li className="text-blue border-b-2 border-zinc-300 w-full">
+          <NavLink onClick={handleClose} to="about">
             About
           </NavLink>
         </li>
-        <li className="border-b-2 border-zinc-300 w-full">
+        <li className="text-blue border-b-2 border-zinc-300 w-full">
           <NavLink
             onClick={handleClose}
-            to="support"
+            to="portfolio"
             smooth={true}
             offset={-50}
             duration={500}
           >
-            Support
+            Portfolio
           </NavLink>
         </li>
-        <li className="border-b-2 border-zinc-300 w-full">
+        <li className="text-blue border-b-2 border-zinc-300 w-full">
           <NavLink
             onClick={handleClose}
-            to="platforms"
+            to="blog"
             smooth={true}
             offset={-100}
             duration={500}
           >
-            Platforms
+            Blog
           </NavLink>
         </li>
-        <li className="border-b-2 border-zinc-300 w-full">
+        <li className="text-blue border-b-2 border-zinc-300 w-full">
           <NavLink
             onClick={handleClose}
-            to="pricing"
+            to="hireme"
             smooth={true}
             offset={-50}
             duration={500}
           >
-            Pricing
+            Hire me
           </NavLink>
         </li>
 
-        <div className="flex flex-col my-4">
+        <div className="text-blue flex flex-col my-4">
           <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
-            Sign In
+            GitHub
           </button>
-          <button className="px-8 py-3">Sign Up</button>
         </div>
       </ul>
     </div>

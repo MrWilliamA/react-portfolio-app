@@ -23,3 +23,7 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+a.social-icon:hover {
+  filter: brightness(0.8);
+}
