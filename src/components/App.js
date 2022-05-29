@@ -11,9 +11,8 @@ import Portfolio from "./Portfolio";
 function App() {
   return (
     <Router>
-      {/* <div className="flex flex-col h-screen"> */}
       <NavBar />
-      <div class="container m-auto">
+      <div class="container m-auto sm:px-3">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
@@ -23,7 +22,6 @@ function App() {
         </Routes>
       </div>
       <Footer />
-      {/* </div> */}
     </Router>
   );
 }

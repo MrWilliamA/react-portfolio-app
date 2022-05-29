@@ -19,19 +19,19 @@ const NavBar = () => {
         </div>
         <div>
           <ul className="hidden md:flex">
-            <li className="text-black menu:text-white">
+            <li className="text-darkblue lg:text-white">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="text-black menu:text-white">
+            <li className="text-darkblue menu:text-white">
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
-            <li className="text-black menu:text-white">
+            <li className=" md:text-white">
               <NavLink to="/blog">Blog</NavLink>
             </li>
-            <li className="text-black menu:text-white">
+            <li className=" md:text-white">
               <NavLink to="/about">About Me</NavLink>
             </li>
-            <li className="text-black menu:text-white">
+            <li className="md:text-white">
               <NavLink to="/hireme">Hire Me</NavLink>
             </li>
           </ul>

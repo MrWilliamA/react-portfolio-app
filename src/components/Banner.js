@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="absolute -z-50 w-full h-full left-0 top-0 bg-cover bg-top ]"
+      className="absolute -z-50 w-full h-full bg-cover bg-top h-[80vh] md:bg-top left-0 top-0  lg:bg-right-top"
       id="homeBanner"
     ></div>
   );

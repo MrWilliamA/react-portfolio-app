@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        menu: "1252px",
+        menu: "900px",
+        smallPhone: "400px",
       },
       colors: {
         white: "#fff",
