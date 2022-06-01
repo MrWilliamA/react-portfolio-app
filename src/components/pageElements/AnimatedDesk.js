@@ -1,10 +1,10 @@
 import React from "react";
 import { animated, useSpring } from "react-spring";
-import cloud from "../assets/cloud.png";
-import desk from "../assets/desk.png";
-import envelope from "../assets/envelope.png";
-import lightbulb from "../assets/lightbulb.png";
-import tablet from "../assets/tablet.png";
+import cloud from "../../assets/cloud.png";
+import desk from "../../assets/desk.png";
+import envelope from "../../assets/envelope.png";
+import lightbulb from "../../assets/lightbulb.png";
+import tablet from "../../assets/tablet.png";
 
 const AnimatedDesk = () => {
   const animate = useSpring({

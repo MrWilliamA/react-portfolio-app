@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import About from "./About";
-import Blog from "./Blog";
-import Footer from "./Footer";
-import HireMe from "./HireMe";
-import Home from "./Home";
-import NavBar from "./NavBar";
-import Portfolio from "./Portfolio";
+import Footer from "./pageElements/Footer";
+import NavBar from "./pageElements/NavBar";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import HireMe from "./pages/HireMe";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <div class="container m-auto sm:px-3">
+      <div class="container m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
