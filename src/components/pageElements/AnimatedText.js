@@ -19,14 +19,14 @@ const AnimatedText = () => {
               2000,
               "Designer",
               2000,
-              "Photogrpaher",
+              "Photographer",
               2000,
             ]}
             wrapper="span"
             repeat={Infinity}
           />
         </h2>
-        <SocialIcons />
+        <SocialIcons color="#1197BA" />
       </div>
     </>
   );

@@ -36,12 +36,12 @@ const AnimatedDesk = () => {
 
   return (
     <>
-      <animated.div style={animate}>
+      <animated.div style={animate} className="z-0">
         <img src={desk} alt="Will Archer Developer, Designer, Photographer" />
       </animated.div>
       <animated.div
         style={animateSmall}
-        className="absolute bottom-[24%] left-[59%] smallPhone:bottom-[30%] md:bottom-[41%] md:left-[73%]"
+        className="absolute bottom-[24%] left-[59%] smallPhone:bottom-[30%] md:bottom-[41%] md:left-[73%] "
       >
         <img src={tablet} alt="Will Archer Developer, Designer, Photographer" />
       </animated.div>
