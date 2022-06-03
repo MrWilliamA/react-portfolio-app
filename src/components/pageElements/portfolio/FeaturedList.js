@@ -2,6 +2,7 @@ import React from "react";
 import phase0 from "../../../assets/phase0-website.gif";
 import shipping from "../../../assets/shipping.gif";
 import wordle from "../../../assets/wordle.gif";
+import quiz from "../../../assets/quiz.gif";
 import SingleFeatured from "./SingleFeatured";
 const FeaturedList = () => {
   return (
@@ -38,8 +39,8 @@ const FeaturedList = () => {
         text={
           "My first ever Javascript project. I made this one for my soon to be wife, never ask a developer for something unless you really mean it. With no formal training and barely any experience, I hacked this together peace by peace. The result...glorious."
         }
-        img={shipping}
-        link="#"
+        img={quiz}
+        link="https://warcherdesign.com/quiz/quiz.html"
         linkText="Play the Quiz"
       />
     </>

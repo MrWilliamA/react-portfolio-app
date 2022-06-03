@@ -2,6 +2,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
+import { useLocation } from "react-router-dom";
+
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -11,8 +13,10 @@ const NavBar = () => {
   const handleClose = () => setNav(!nav);
 
   return (
-    <div className="navBar md:px-20 lg:px-40 h-[100px] z-10 drop-shadow-lg ">
-      <div className="flex items-center justify-between space-y-0.5 h-[100px]">
+    <div className="navBar md:px-20 lg:px-40 h-[60px] md:h-[100px] z-10 drop-shadow-lg" style={{
+      background: useLocation().pathname !== "/" ? "#0676AC" : "transparent"
+    }}>
+      <div className="flex items-center justify-between space-y-0.5 h-[60px] md:h-[100px]">
         <div>
           <a href="/">
             <img src={logo} alt="Will Archer Logo" className="w-[75px]" />
@@ -45,7 +49,7 @@ const NavBar = () => {
           {!nav ? <MenuIcon className="w-5" /> : <XIcon className="w-5" />}
         </div>
       </div>
-      <nav className={!nav ? "hidden" : " bg-white w-full px-8 z-50"}>
+      <nav className={!nav ? "hidden" : "absolute bg-white w-full px-8 z-50"}>
         <ul>
           <li className="text-blue border-b-2 border-zinc-300 w-full">
             <NavLink onClick={handleClose} to="/">
