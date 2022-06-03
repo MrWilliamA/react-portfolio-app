@@ -5,8 +5,8 @@ import SocialIcons from "./SocialIcons";
 const AnimatedText = () => {
   return (
     <>
-      <h2 className="text-2xl md:text-4xl font-black text-blue">Hi there!</h2>
-      <h1 className="text-[2.5rem] my-1 md:my-4 md:text-6xl font-black  text-blue">
+      <h2 className="md:text-4xl">Hi there!</h2>
+      <h1 className="my-1 md:my-4 md:text-6xl">
         <span className="text-xl">I'm</span>Will Archer.
       </h1>
       <div className="w-300px md:w-[32em]">

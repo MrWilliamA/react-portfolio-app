@@ -11,10 +11,10 @@ const Home = () => {
     <>
       <Banner />
       <div className="block md:flex p-10 md:p-0 mx-auto mb-4 items-center justify-center h-[60vh]">
-        <div className="absolute w-full md:w-1/2 items-center z-[-1]">
+        <div className="absolute w-full md:relative md:w-1/2 items-center z-[-1]">
           <AnimatedText />
         </div>
-        <div className="absolute w-[330px] md:w-1/2 items-center  top-[300px] md:top-0  z-[-1]">
+        <div className="absolute w-[330px] md:relative md:w-1/2 items-center  top-[300px] md:top-0  z-[-1]">
           <AnimatedDesk />
         </div>
       </div>

@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { useLocation } from "react-router-dom";
 
-
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
@@ -96,9 +95,11 @@ const NavBar = () => {
           </li>
 
           <div className="text-blue flex flex-col my-4">
-            <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
+            <a href="https://github.com/MrWilliamA" target="_blank" rel="noreferrer" className="bg-transparent text-blue px-8 py-3 mb-4 border-solid border border-darkblue rounded-md">
               GitHub
-            </button>
+            </a>
+           
+
           </div>
         </ul>
       </nav>
