@@ -36,18 +36,18 @@ const AnimatedDesk = () => {
 
   return (
     <>
-      <animated.div style={animate} className="z-0">
+      <animated.div style={animate} >
         <img src={desk} alt="Will Archer Developer, Designer, Photographer" />
       </animated.div>
       <animated.div
         style={animateSmall}
-        className="absolute bottom-[24%] left-[59%] smallPhone:bottom-[30%] md:bottom-[41%] md:left-[73%] "
+        className="absolute bottom-[24%] left-[59%] smallPhone:top-[60%] md:bottom-[41%] md:left-[73%] "
       >
         <img src={tablet} alt="Will Archer Developer, Designer, Photographer" />
       </animated.div>
       <animated.div
         style={animateSmall}
-        className="absolute bottom-[50%] md:bottom-[60%]"
+        className="absolute left-[-25px] bottom-[50%] md:bottom-[60%]"
       >
         <img
           src={envelope}
@@ -57,7 +57,7 @@ const AnimatedDesk = () => {
 
       <animated.div
         style={animatebulb}
-        className="absolute bottom-[56%] left-[74%] md:bottom-[73%] md:left-[82%]"
+        className="absolute bottom-[81%] left-[74%] md:bottom-[73%] md:left-[82%]"
       >
         <img
           src={lightbulb}
@@ -67,7 +67,7 @@ const AnimatedDesk = () => {
 
       <animated.div
         style={animateSmall}
-        className="absolute bottom-[53%] left-[70%] md:bottom-[70%] md:left-[80%]"
+        className="absolute bottom-[78%] left-[70%] md:bottom-[70%] md:left-[80%]"
       >
         <img src={cloud} alt="Will Archer Developer, Designer, Photographer" />
       </animated.div>

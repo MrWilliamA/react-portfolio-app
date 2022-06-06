@@ -1,0 +1,22 @@
+{
+  "exercises": [
+    {
+      "title": "react-hooks-class-syntax-lab",
+      "description": "Practice refactoring function components to class components",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-class-syntax-lab"
+    },
+    {
+      "title": "react-hooks-forms-lab",
+      "description": "controlled components, and validation for form components",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-forms-lab"
+    },
+    {
+      "title": "react-hooks-use-context",
+      "description": "The React Context API, and the useContext hook",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-use-context"
+    }
+  ]
+}

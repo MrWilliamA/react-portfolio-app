@@ -25,6 +25,18 @@
   p {
     @apply leading-8;
   }
+
+  h1 {
+    @apply text-[2.5rem];
+    @apply font-black;
+    @apply text-blue;
+  }
+
+  h2 {
+    @apply text-2xl;
+    @apply font-black;
+    @apply text-blue;
+  } 
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Rubik+Mono+One&display=swap");
@@ -35,4 +47,40 @@ body {
 
 a.social-icon:hover {
   filter: brightness(0.8);
+}
+
+.codingTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.codingTable thead tr {
+  background-color: #1197BA;
+  color: #ffffff;
+  text-align: left;
+}
+
+.codingTable th,
+.codingTable td {
+    padding: 12px 15px;
+}
+
+.codingTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.codingTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.codingTable tbody tr:last-of-type {
+  border-bottom: 2px solid #1197BA;
+}
+
+.codingTable tbody tr:hover {
+  color: #1197BA;
 }
