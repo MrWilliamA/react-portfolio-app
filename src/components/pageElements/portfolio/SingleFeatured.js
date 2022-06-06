@@ -8,7 +8,6 @@ const SingleFeatured = (props) => {
   const link = props.link;
   const linkText = props.linkText;
 
-  console.log(featuredTitle);
   return (
     <div className="block px-5 md:flex my-8 items-center">
       <div className="w-full md:w-1/2 md:pr-5">

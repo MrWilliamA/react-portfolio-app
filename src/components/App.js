@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import HireMe from "./pages/HireMe";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <div class="container m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
+          <Route path='*' element={<NotFound />} />  
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/blog" element={<Blog />} />
@@ -27,20 +29,3 @@ function App() {
 }
 
 export default App;
-
-// >>header Component
-// >> navigation
-
-// >>body Component
-
-// >>footer Component
-
-// >>home page
-// various parts it body e.g banner, brands i worked with, services etc
-// make as resuable components
-// >>about page
-// >>contact page
-// >>blog page?
-// blog list
-// single blog
-// >>404 page
