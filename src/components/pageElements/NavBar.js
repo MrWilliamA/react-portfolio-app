@@ -10,8 +10,12 @@ const NavBar = () => {
 
   const handleClose = () => setNav(!nav);
 
+  const currentPage = window.location.pathname;
+
+  console.log(currentPage);
+
   return (
-    <div className="navBar md:px-20 lg:px-40 h-[100px] z-10 drop-shadow-lg ">
+    <div className="navBar md:px-20 lg:px-40 h-[100px] z-10 drop-shadow-lg">
       <div className="flex items-center justify-between space-y-0.5 h-[100px]">
         <div>
           <a href="/">
