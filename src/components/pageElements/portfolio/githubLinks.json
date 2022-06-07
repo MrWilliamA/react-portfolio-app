@@ -1,20 +1,202 @@
-[
-  {
-    "title": "react-hooks-class-syntax-lab",
-    "description": "Practice refactoring function components to class components",
-    "cat": "React",
-    "url": "https://github.com/MrWilliamA/react-hooks-class-syntax-lab"
-  },
-  {
-    "title": "react-hooks-forms-lab",
-    "description": "controlled components, and validation for form components",
-    "cat": "React",
-    "url": "https://github.com/MrWilliamA/react-hooks-forms-lab"
-  },
-  {
-    "title": "react-hooks-use-context",
-    "description": "The React Context API, and the useContext hook",
-    "cat": "React",
-    "url": "https://github.com/MrWilliamA/react-hooks-use-context"
-  }
-]
+{
+  "entries": [
+    {
+      "title": "React hooks class syntax lab",
+      "description": "Practice refactoring function components to class components.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-class-syntax-lab"
+    },
+    {
+      "title": "React hooks forms lab",
+      "description": "Controlled components, and validation for form components.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-forms-lab"
+    },
+    {
+      "title": "React hooks use context",
+      "description": "The React Context API, and the useContext hook.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-use-context"
+    },
+    {
+      "title": "React hooks use ref ",
+      "description": "Exploring how to use the useRef hook and some common use cases for it.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-use-ref"
+    },
+    {
+      "title": "React Hooks Hogwarts ",
+      "description": "The React app for fans of prize-winning pigs.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-hogwarts"
+    },
+    {
+      "title": "React Fetch CRUD Lab",
+      "description": "Work with fetch and interacting with a quiz API.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-fetch-crud-lab"
+    },
+    {
+      "title": "Dynamic Routes in React Router",
+      "description": "JSX Route and Routes",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-react-router-dynamic-routes"
+    },
+    {
+      "title": "React Components as Routes Lab",
+      "description": "reate a simple client-side routing application with React Router.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-react-router-routes-lab"
+    },
+    {
+      "title": "State and Events Mini Project",
+      "description": "Simple task list app to practice working with state and events.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-state-events-mini-project"
+    },
+    {
+      "title": "React Information Flow Lab",
+      "description": "Refactor the code from the previous shopping list lab.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-information-flow-lab"
+    },
+    {
+      "title": "React State Lab",
+      "description": "State and events to make a dynamic grocery list app.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-state-and-events-lab"
+    },
+    {
+      "title": "React useEffect Lab",
+      "description": "Using useEffect to build a countdown timer.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-use-effect-lab"
+    },
+    {
+      "title": "Components, Props and JSX Mini Project",
+      "description": "A static site in React to practice building components; writing JSX; and passing down data as props.",
+      "cat": "React",
+      "url": "https://github.com/MrWilliamA/react-hooks-component-props-mini-project"
+    },
+    {
+      "title": "Challenge: Toy Tale",
+      "description": "Toy Story fetch lab with POST and GET.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-challenge-toy-tale"
+    },
+    {
+      "title": "Challenge: TaskLister Mini-Project",
+      "description": "Build a functioning to-do list application.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-tasklister-mini-project"
+    },
+    {
+      "title": "Building the Simple Liker App",
+      "description": "Set up an event listener to respond to a user action in Liker App.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-building-simple-liker"
+    },
+    {
+      "title": "Interacting with the DOM",
+      "description": "Interacting with the DOM using Javascript",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-challenge-interacting-with-the-dom"
+    },
+    {
+      "title": "Fetch Dog CEO Challenge",
+      "description": "Practice accessing information from APIs and using it to update the DOM.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-challenge-dog-ceo"
+    },
+    {
+      "title": "Fetch on Demand with Forms",
+      "description": "Practice using forms to trigger fetch requests.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-js-fetch-on-demand-with-forms"
+    },
+    {
+      "title": "Fetch Lab",
+      "description": "Use fetch() to programmatically make a web request",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-fetch-lab"
+    },
+    {
+      "title": "Using JSON Server and Postman",
+      "description": "Practice the client/server request/response cycle.",
+      "cat": "Javascript",
+      "url": "https://github.com/MrWilliamA/phase-1-using-json-server-and-postman"
+    },
+    {
+      "title": "Zetsy",
+      "description": "Practice visually interpreting HTML and CSS code from the rendered DOM",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/fe-zetsy"
+    },
+    {
+      "title": "HTML5 Semantic Elements Lab",
+      "description": "Introduction to common semantic tags in HTML",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/html5-semantic-containers-lab"
+    },
+    {
+      "title": "HTML5 Video Embed Code-Along",
+      "description": "Xxploring the HTML video tag.",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/html5-video-embed-lab"
+    },
+    {
+      "title": "HTML Iframe Lab",
+      "description": "Reinforce our understanding of iframes.",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/html-iframes-lab"
+    },
+    {
+      "title": "HTML Contact Form Lab",
+      "description": "Build a functional a contact form.",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/html-forms-lab"
+    },
+    {
+      "title": "HTML Album Cover",
+      "description": "Apply header, paragraph, image and span tags.",
+      "cat": "HTML",
+      "url": "https://github.com/MrWilliamA/phase-0-html-album-cover-lab"
+    },
+    {
+      "title": "ZHW Shoes Layout",
+      "description": "Visually interpreting HTML and CSS code from the rendered DOM",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/hs-zhw-shoes-layout"
+    },
+    {
+      "title": "CSS Graffiti Override Lab",
+      "description": "Overriding existing styles and browser developer tools.",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/phase-0-css-graffiti-lab"
+    },
+    {
+      "title": "CSS Kitten Wheelbarrow",
+      "description": "Moving objects with CSS.",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/phase-0-css-kitten-lab"
+    },
+    {
+      "title": "My Little Rainbow",
+      "description": "Specify hexadecimal color values with CSS.",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/phase-0-css-rainbow-lab"
+    },
+    {
+      "title": "CSS Validation Lab",
+      "description": "Change invalid CSS to valid CSS.",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/css-essentials-css-issue-bot-9000"
+    },
+    {
+      "title": "CSS Fundamentals Lab",
+      "description": "Link an external CSS file.",
+      "cat": "CSS",
+      "url": "https://github.com/MrWilliamA/phase-0-css-fundamentals-lab"
+    }
+  ]
+}
