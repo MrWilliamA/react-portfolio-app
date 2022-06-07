@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Portfolio = () => {
+
+  let [gitLinks, setGitLink] = useState([]);
+  let [isLoading, setIsLoading] = useState(true);
+
+  const links = "http://localhost:3000/entries";
+
+  useEffect(() => {
+    fetch("http://localhost:3000/entries")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        setGitLink(data);
+        setIsLoading(false);
+         
+      });
+  }, []);
+
+  if (isLoading) return <h1>Loading!</h1>;
+  // return <img src={dogImages.message} alt="A Random Dog" />;
+  // return <p>data: {{gitLink}}</p>;
+
+  const linkList = gitLinks.map((link) => (
+    <p key={link.title}>{link.title}</p>
+    ))
+
   return (
     <div className="mt-[60px]">
+      <div>{linkList}</div>
       <h2>Code Training</h2>
       <p>
         Below is a list of GitHub links with various training excerises I have

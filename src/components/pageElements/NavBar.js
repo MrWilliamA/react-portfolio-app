@@ -10,10 +10,6 @@ const NavBar = () => {
 
   const handleClose = () => setNav(!nav);
 
-  const currentPage = window.location.pathname;
-
-  console.log(currentPage);
-
   return (
     <div
       className="navBar md:px-20 lg:px-40 h-[60px] md:h-[100px] z-10 drop-shadow-lg"
@@ -34,9 +30,6 @@ const NavBar = () => {
             </li>
             <li className="text-darkblue menu:text-white">
               <NavLink to="/portfolio">Portfolio</NavLink>
-            </li>
-            <li className=" md:text-white">
-              <NavLink to="/blog">Blog</NavLink>
             </li>
             <li className=" md:text-white">
               <NavLink to="/about">About Me</NavLink>

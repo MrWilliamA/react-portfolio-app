@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./pageElements/Footer";
 import NavBar from "./pageElements/NavBar";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import HireMe from "./pages/HireMe";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -18,7 +17,6 @@ function App() {
           <Route path='*' element={<NotFound />} />  
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/hireme" element={<HireMe />} />
         </Routes>
