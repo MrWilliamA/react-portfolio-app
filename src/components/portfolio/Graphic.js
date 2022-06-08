@@ -1,14 +1,14 @@
 import React from "react";
-import Archery from "../../../assets/Graphics/archery.jpg";
-import BannerAd from "../../../assets/Graphics/bannerAd.jpg";
-import FotoTable from "../../../assets/Graphics/fotopro-table.jpg";
-import Fotopro from "../../../assets/Graphics/fotopro.jpg";
-import Meade from "../../../assets/Graphics/meade.jpg";
-import NewRelease from "../../../assets/Graphics/new-release.jpg";
-import Rangefinder from "../../../assets/Graphics/rangefinder.jpg";
-import StarAdventurer from "../../../assets/Graphics/Star-Adventurer-Mount.jpg";
-import Sunnies from "../../../assets/Graphics/sunnies.jpg";
-import Trailcam from "../../../assets/Graphics/trailcam.jpg";
+import Archery from "../../assets/Graphics/archery.jpg";
+import BannerAd from "../../assets/Graphics/bannerAd.jpg";
+import FotoTable from "../../assets/Graphics/fotopro-table.jpg";
+import Fotopro from "../../assets/Graphics/fotopro.jpg";
+import Meade from "../../assets/Graphics/meade.jpg";
+import NewRelease from "../../assets/Graphics/new-release.jpg";
+import Rangefinder from "../../assets/Graphics/rangefinder.jpg";
+import StarAdventurer from "../../assets/Graphics/Star-Adventurer-Mount.jpg";
+import Sunnies from "../../assets/Graphics/sunnies.jpg";
+import Trailcam from "../../assets/Graphics/trailcam.jpg";
 
 const Graphic = () => {
   return (

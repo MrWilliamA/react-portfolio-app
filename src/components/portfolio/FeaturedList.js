@@ -1,8 +1,8 @@
 import React from "react";
-import phase0 from "../../../assets/phase0-website.gif";
-import shipping from "../../../assets/shipping.gif";
-import wordle from "../../../assets/wordle.gif";
-import quiz from "../../../assets/quiz.gif";
+import phase0 from "../../assets/phase0-website.gif";
+import shipping from "../../assets/shipping.gif";
+import wordle from "../../assets/wordle.gif";
+import quiz from "../../assets/quiz.gif";
 import SingleFeatured from "./SingleFeatured";
 const FeaturedList = () => {
   return (

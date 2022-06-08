@@ -1,16 +1,16 @@
 import React from "react";
-import Az5 from "../../../assets/Photography/az5.jpg";
-import Binoculars from "../../../assets/Photography/binoculars.jpg";
-import Boots from "../../../assets/Photography/boots.jpg";
-import Earmuffs from "../../../assets/Photography/earmuffs.jpg";
-import Esprit from "../../../assets/Photography/esprit.jpg";
-import LedRound from "../../../assets/Photography/led-round.jpg";
-import Led from "../../../assets/Photography/led.jpg";
-import Meade from "../../../assets/Photography/packaging.jpg";
-import Reddot from "../../../assets/Photography/red-dot.jpg";
-import Riflescope from "../../../assets/Photography/riflescope.jpg";
-import Spotter from "../../../assets/Photography/spotter.jpg";
-import OTA from "../../../assets/Photography/telescope-ota.jpg";
+import Az5 from "../../assets/Photography/az5.jpg";
+import Binoculars from "../../assets/Photography/binoculars.jpg";
+import Boots from "../../assets/Photography/boots.jpg";
+import Earmuffs from "../../assets/Photography/earmuffs.jpg";
+import Esprit from "../../assets/Photography/esprit.jpg";
+import LedRound from "../../assets/Photography/led-round.jpg";
+import Led from "../../assets/Photography/led.jpg";
+import Meade from "../../assets/Photography/packaging.jpg";
+import Reddot from "../../assets/Photography/red-dot.jpg";
+import Riflescope from "../../assets/Photography/riflescope.jpg";
+import Spotter from "../../assets/Photography/spotter.jpg";
+import OTA from "../../assets/Photography/telescope-ota.jpg";
 
 const Photography = () => {
   return (

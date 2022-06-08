@@ -84,3 +84,7 @@ a.social-icon:hover {
 .codingTable tbody tr:hover {
   color: #1197BA;
 }
+
+.hideSocials {
+  display: none;
+}

@@ -1,13 +1,10 @@
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../assets/logo.png";
 
-const NavBar = () => {
-  const [nav, setNav] = useState(false);
-
-  const handleClick = () => setNav(!nav);
-
+const NavBar = ({nav, setNav, handleClick}) => {
+  
   const handleClose = () => setNav(!nav);
 
   return (
@@ -28,7 +25,7 @@ const NavBar = () => {
             <li className="text-darkblue lg:text-white">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="text-darkblue menu:text-white">
+            <li className="text-darkblue md:text-white">
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li className=" md:text-white">

@@ -1,20 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import AnimatedDesk from "../pageElements/AnimatedDesk";
-import AnimatedText from "../pageElements/AnimatedText";
-import Banner from "../pageElements/Banner";
-import ContentSpacing from "../pageElements/ContentSpacing";
-import FeaturedList from "../pageElements/portfolio/FeaturedList";
+import AnimatedDesk from "../components/AnimatedDesk";
+import AnimatedText from "../components/AnimatedText";
+import Banner from "../components/Banner";
+import ContentSpacing from "../components/ContentSpacing";
+import FeaturedList from "../components/portfolio/FeaturedList";
 
-const Home = () => {
+const Home = ({nav}) => {
+
   return (
     <>
       <Banner />
       <div className="block md:flex p-10 md:p-0 mx-auto mb-4 items-center justify-center h-[60vh]">
-        <div className="absolute w-full md:relative md:w-1/2 items-center z-[-1]">
+        <div className="absolute w-full md:relative md:w-1/2 items-center" className={nav ? 'hideSocials' : null}>
           <AnimatedText />
         </div>
-        <div className="absolute w-[330px] md:relative md:w-1/2 items-center  top-[300px] md:top-0  z-[-1]">
+        <div className="absolute w-[330px] md:relative md:w-1/2 items-center top-[300px] md:top-0 z-[-1]">
           <AnimatedDesk />
         </div>
       </div>

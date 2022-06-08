@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import CodingTable from "../pageElements/portfolio/CodingTable";
-import FeaturedList from "../pageElements/portfolio/FeaturedList";
-import Graphic from "../pageElements/portfolio/Graphic";
-import Photography from "../pageElements/portfolio/Photography";
+import CodingTable from "../components/portfolio/CodingTable";
+import FeaturedList from "../components/portfolio/FeaturedList";
+import Graphic from "../components/portfolio/Graphic";
+import Photography from "../components/portfolio/Photography";
 
 const Portfolio = () => {
   const [coding, setCoding] = useState(true);

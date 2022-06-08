@@ -2,7 +2,7 @@ import React from "react";
 import TypeAnimation from "react-type-animation";
 import SocialIcons from "./SocialIcons";
 
-const AnimatedText = () => {
+const AnimatedText = (props) => {
   return (
     <>
       <h2 className="md:text-4xl">Hi there!</h2>
@@ -26,7 +26,7 @@ const AnimatedText = () => {
             repeat={Infinity}
           />
         </h2>
-        <SocialIcons color="#1197BA" />
+        <SocialIcons color="#1197BA"/>
       </div>
     </>
   );
