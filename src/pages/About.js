@@ -3,7 +3,7 @@ import Willprofile from "../components/Willprofile";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap py-[80px]">
+    <div className="flex flex-wrap py-[80px] px-[20px]">
       <div className="w-full my-[20px]">
         <h1> About Me</h1>
       </div>

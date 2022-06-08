@@ -15,12 +15,12 @@ portfolio page</NavLink> for some examples.</p><br/>
         <div className="w-full md:w-1/2 flex flex-wrap pt-[25px] md:pt-0 md:pl-[50px] my-[50px]">
           <Willprofile />
         </div>
-    <div className="w-full flex flex-wrap pt-[25px] md:pt-0 my-[50px]">
+    <div className="w-full md:w-1/2 flex flex-wrap pt-[25px] md:pt-0">
     <form method='POST' action="https://getform.io/f/edecc139-1701-45f6-8fc7-207025dfb7fd" className='flex flex-col max-w-[600px] w-full'>
             <input className='bg-[#1197ba26] p-2' type="text" placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#1197ba26]' type="email" placeholder='Email' name='email' />
             <textarea className='bg-[#1197ba26] p-2' name="message" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+            <button className='text-white bg-blue hover:bg-darkblue px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
         </form>
     </div>
 </div>

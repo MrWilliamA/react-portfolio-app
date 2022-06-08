@@ -1,5 +1,5 @@
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import React, { useState } from "react";
+import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 
