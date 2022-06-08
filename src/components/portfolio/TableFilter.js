@@ -26,17 +26,17 @@ const TableFilter = ({ onFilter, filter, setFilter, data }) => {
             value="React"
             onChange={handleChange}
           >
-              {
+              {/* {
               data.filter((option) => {
                 option !== option
               }).map((data) => (
                   <option value={data.cat}>{data.cat}</option>
               ))
-              }
+              } */}
 
-              {/* {data.map((data) => (
+              {data.map((data) => (
                   <option value={data.cat}>{data.cat}</option>
-              ))} */}
+              ))}
               </select>
 
           <button className="text-white bg-blue hover:bg-darkblue px-4 py-2 text-sm" type="submit">

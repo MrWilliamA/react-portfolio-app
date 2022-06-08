@@ -33,7 +33,7 @@ const Portfolio = () => {
       <div>
         <TableFilter onFilter={setQuery} filter={filter} setFilter={setFilter} data={gitLinks}/>
       </div>
-      <table className="codingTable ">
+      <table className="codingTable table-fixed">
         <thead>
           <tr>
             <th>Title</th>

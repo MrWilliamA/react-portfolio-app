@@ -87,3 +87,8 @@ a.social-icon:hover {
 .hideSocials {
   display: none;
 }
+
+@media (min-width: 400px) {
+.container {
+    max-width: 100%;
+}}

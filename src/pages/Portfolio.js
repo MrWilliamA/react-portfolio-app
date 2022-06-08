@@ -57,7 +57,7 @@ const Portfolio = () => {
   }
 
   return (
-    <div className="pt-[80px]">
+    <div className="pt-[80px] px-[25px] ">
       <div>
         <h1>Portfolio</h1>
         <p>

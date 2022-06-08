@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <NavBar handleClick={handleClick} nav={nav} setNav={setNav}/>
-      <div class="container m-auto sm:px-3 md:px-12 lg:px-28">
+      <div class="container w-[90%] m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
           <Route path='*' element={<NotFound />} />  
           <Route path="/" element={<Home nav={nav}/>} />
