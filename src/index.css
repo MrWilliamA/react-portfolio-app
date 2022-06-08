@@ -36,7 +36,7 @@
     @apply text-2xl;
     @apply font-black;
     @apply text-blue;
-  } 
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Rubik+Mono+One&display=swap");
@@ -58,14 +58,14 @@ a.social-icon:hover {
 }
 
 .codingTable thead tr {
-  background-color: #1197BA;
+  background-color: #1197ba;
   color: #ffffff;
   text-align: left;
 }
 
 .codingTable th,
 .codingTable td {
-    padding: 12px 15px;
+  padding: 12px 15px;
 }
 
 .codingTable tbody tr {
@@ -77,11 +77,11 @@ a.social-icon:hover {
 }
 
 .codingTable tbody tr:last-of-type {
-  border-bottom: 2px solid #1197BA;
+  border-bottom: 2px solid #1197ba;
 }
 
 .codingTable tbody tr:hover {
-  color: #1197BA;
+  color: #1197ba;
 }
 
 .hideSocials {
@@ -89,6 +89,7 @@ a.social-icon:hover {
 }
 
 @media (min-width: 400px) {
-.container {
+  .container {
     max-width: 100%;
-}}
+  }
+}

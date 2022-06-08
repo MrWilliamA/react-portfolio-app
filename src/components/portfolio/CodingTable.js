@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import GitList from "./GitList";
 import TableFilter from "./TableFilter";
 
 const Portfolio = () => {
@@ -6,7 +7,7 @@ const Portfolio = () => {
   let [gitLinks, setGitLink] = useState([]);
   let [filteredGits, setFilteredGits] = useState([]);
   let [isLoading, setIsLoading] = useState(true);
-  const [query, setQuery] = useState("");
+  // const [query, setQuery] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3004/entries")
@@ -15,23 +16,29 @@ const Portfolio = () => {
         setGitLink(data);
         setIsLoading(false);
 
-        let gitList = data.filter((git) => git.cat === filter );
+        let gitList = data.filter((git) => git.cat === filter);
         setFilteredGits(gitList);
       });
-  }, [query]);
+  }, [filter]);
 
   if (isLoading) return <h1>Loading!</h1>;
 
   return (
     <div className="mt-[60px]">
-      
       <h2>Code Training</h2>
       <p>
         Below is a list of GitHub links with various training excerises I have
-        worked on. I used these to practice my HTML, CSS, Javascript and React.<br/> Please note, <strong>THIS IS NOT EVERYTHING!</strong> For obvious reasons I can't add everything I have ever worked on to this website
+        worked on. I used these to practice my HTML, CSS, Javascript and React.
+        <br /> Please note, <strong>THIS IS NOT EVERYTHING!</strong> For obvious
+        reasons I can't add everything I have ever worked on to this website
       </p>
       <div>
-        <TableFilter onFilter={setQuery} filter={filter} setFilter={setFilter} data={gitLinks}/>
+        <TableFilter
+          // onFilter={setQuery}
+          filter={filter}
+          setFilter={setFilter}
+          data={gitLinks}
+        />
       </div>
       <table className="codingTable table-fixed">
         <thead>
@@ -43,16 +50,11 @@ const Portfolio = () => {
           </tr>
         </thead>
         <tbody>
-        {filteredGits.map(item => {
-      return (
-        <tr key={item.title}>
-          <td>{ item.title }</td>
-          <td>{ item.description }</td>
-          <td>{ item.cat }</td>
-          <td><a href={ item.url } target="_blank" rel="noreferrer">Find on GitHub</a></td>
-        </tr>
-      );
-    })}
+          <GitList
+            filter={filter}
+            filteredGits={filteredGits}
+            gitLinks={gitLinks}
+          />
         </tbody>
       </table>
     </div>

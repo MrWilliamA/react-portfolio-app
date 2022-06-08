@@ -6,13 +6,18 @@ import Banner from "../components/Banner";
 import ContentSpacing from "../components/ContentSpacing";
 import FeaturedList from "../components/portfolio/FeaturedList";
 
-const Home = ({nav}) => {
-
+const Home = ({ nav }) => {
   return (
     <>
       <Banner />
       <div className="block md:flex p-10 md:p-0 mx-auto mb-4 items-center justify-center h-[60vh]">
-        <div className="absolute w-full md:relative md:w-1/2 items-center" className={nav ? 'hideSocials' : null}>
+        <div
+          className={
+            nav
+              ? "hideSocials"
+              : "absolute w-full md:relative md:w-1/2 items-center"
+          }
+        >
           <AnimatedText />
         </div>
         <div className="absolute w-[330px] md:relative md:w-1/2 items-center top-[300px] md:top-0 z-[-1]">
