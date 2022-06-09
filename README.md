@@ -1,7 +1,5 @@
-![Will Archer Portfolio](src/assets/logo.png)
-
 <p align="center">
-  <img width="460" height="300" src="/src/assets/logo.png">
+  <img width="auto" height="auto" src="/src/assets/logo.png">
 </p>
 
 # Will Archer Portfolio Website
