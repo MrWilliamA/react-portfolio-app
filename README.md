@@ -27,6 +27,7 @@ This is my final project for the AcademyXi FET02 Front End Web Development cours
 
 **Install and run JSON Server**
 > `npm install -g json-server`
+
 > `npx json-server --watch src/components/portfolio/githubLinks.json --port 3004`
 
 ## Usage
