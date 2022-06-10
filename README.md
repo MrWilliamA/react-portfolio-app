@@ -6,7 +6,9 @@
 
 ## About The Project
 
-This is my final project for the AcademyXi FET02 Front End Web Development course. The project outlines are simple, create a website using React, Javascript HTML and CSS that demonstrates an understanding of front end website technologies (this is paraphrasing it a bit). I decided to make a React portfolio website showcasing some of the excerces and projects I worked on during this course, as well as a few bonus website and graphic projects from earlier. 
+Page URL: [https://mrwilliama.github.io/react-portfolio-app/](https://mrwilliama.github.io/react-portfolio-app/)
+
+This is my final project for the AcademyXi FET02 Front End Web Development course. The project outlines are simple, create a website using React, Javascript HTML and CSS that demonstrates an understanding of front end website technologies (this is paraphrasing it a bit). I decided to make a React portfolio website showcasing some of the excerces and projects I worked on during this course, as well as a few bonus website and graphic projects from earlier.
 
 ## Built With
 
@@ -23,9 +25,11 @@ This is my final project for the AcademyXi FET02 Front End Web Development cours
 ## Getting Started
 
 **Install npm**
+
 > `npm install`
 
 **Install and run JSON Server**
+
 > `npm install -g json-server`
 
 > `npx json-server --watch src/components/portfolio/githubLinks.json --port 3004`
