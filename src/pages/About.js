@@ -3,13 +3,13 @@ import Willprofile from "../components/Willprofile";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap py-[80px] px-[20px]">
-      <div className="w-full my-[20px]">
+    <div className="py-[80px] sm:px-[25px] flex flex-wrap items-start">
+      <div className="w-full ">
         <h1> About Me</h1>
       </div>
-      <div className="w-full pr-0 md:pr-[25px] md:w-2/3">
+      <div className="w-full xl:w-1/2 pr-0 md:pr-[25px]">
         <p>
-          <strong className="text-xl">Hi, I’m Will. Nice to meet you.</strong> 
+          <strong className="text-xl">Hi, I’m Will. Nice to meet you.</strong>
         </p>
         <p>
           I am a web developer with a background in graphic design and product
@@ -36,8 +36,8 @@ const About = () => {
           Thank you for your interest!
         </p>
       </div>
-      <div className="mt-[25px] w-full md:pt-o md:w-1/3">
-       <Willprofile />
+      <div className="w-full xl:w-1/2 flex flex-wrap pt-[25px] md:pt-0 md:pl-[50px] my-[50px]">
+        <Willprofile />
       </div>
     </div>
   );
