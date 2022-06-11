@@ -22,11 +22,11 @@ function App() {
       <NavBar handleClick={handleClick} nav={nav} setNav={setNav} />
       <div class="container w-[90%] m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
-          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home nav={nav} />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<About />} />
           <Route path="/hireme" element={<HireMe />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
