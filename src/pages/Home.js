@@ -32,9 +32,9 @@ const Home = ({ nav }) => {
             A small gallery of my recent projects. I have singled these out
             because they are purely my own, from concept to completion. I
             designed all the relevent assets, handpicked the fonts and colours
-            and codeded them from scratch. It's only a drop in the ocean
-            compared to my entire portfolio, however only a small portion wil
-            ever make it onto my website. Visit my
+            and coded them from scratch. It's only a drop in the ocean compared
+            to my entire portfolio, however only a small portion wil ever make
+            it onto my website. Visit my
             <NavLink to="/portfolio" className="text-blue font-bold mx-2">
               Portfolio Page
             </NavLink>

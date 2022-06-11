@@ -36,9 +36,13 @@ This is my final project for the AcademyXi FET02 Front End Web Development cours
 
 ## Usage
 
-The website requires json server to run properly so follow the steps above to gain access to the the table data on te portfolio page. Other then that, its a basic portfolio website. Its purpose is to be explorerd by you, the user. Feel free to click around, if you find any propblems, or if you just want to talk, use the contact form to send me a message!
+The website requires json server to run properly so follow the steps above to gain access to the table data on te portfolio page. Other then that, its a basic portfolio website. Its purpose is to be explorerd by you, the user. Feel free to click around, if you find any propblems, or if you just want to talk, use the contact form to send me a message!
 
 ## Contact
 
 Will Archer - [will.archer@hotmail.com](mailto:will.archer@hotmail.com)
 Project Link - https://github.com/MrWilliamA/react-portfolio-app
+
+## Update
+
+I have refactored some of the code so that JSON Server is no longer needed.
