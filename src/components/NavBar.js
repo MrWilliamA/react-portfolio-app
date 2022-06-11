@@ -1,10 +1,8 @@
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 
-const NavBar = ({nav, setNav, handleClick}) => {
-  
+const NavBar = ({ nav, setNav, handleClick }) => {
   const handleClose = () => setNav(!nav);
 
   return (
@@ -16,9 +14,9 @@ const NavBar = ({nav, setNav, handleClick}) => {
     >
       <div className="flex items-center justify-between space-y-0.5 h-[60px] md:h-[100px]">
         <div>
-          <a href="/">
+          <NavLink to="/">
             <img src={logo} alt="Will Archer Logo" className="w-[75px]" />
-          </a>
+          </NavLink>
         </div>
         <div>
           <ul className="hidden md:flex">
