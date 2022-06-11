@@ -58,7 +58,7 @@ const NavBar = ({ nav, setNav, handleClick }) => {
             <NavLink
               onClick={handleClose}
               to="portfolio"
-              smooth={true}
+              // smooth={true}
               offset={-50}
               duration={500}
             >
@@ -69,7 +69,7 @@ const NavBar = ({ nav, setNav, handleClick }) => {
             <NavLink
               onClick={handleClose}
               to="blog"
-              smooth={true}
+              // smooth={true}
               offset={-100}
               duration={500}
             >
@@ -80,7 +80,7 @@ const NavBar = ({ nav, setNav, handleClick }) => {
             <NavLink
               onClick={handleClose}
               to="hireme"
-              smooth={true}
+              // smooth={true}
               offset={-50}
               duration={500}
             >

@@ -20,7 +20,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <NavBar handleClick={handleClick} nav={nav} setNav={setNav} />
-      <div class="container w-[90%] m-auto sm:px-3 md:px-12 lg:px-28">
+      <div className="container w-[90%] m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
           <Route path="/" element={<Home nav={nav} />} />
           <Route path="/portfolio" element={<Portfolio />} />

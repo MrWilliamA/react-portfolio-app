@@ -36,16 +36,11 @@ const TableFilter = ({ onFilter, filter, setFilter, data }) => {
           >
             <option value="">All</option>
             {options.map((option) => (
-              <option value={option}>{option}</option>
+              <option key={option} value={option}>
+                {option}
+              </option>
             ))}
           </select>
-
-          {/* <button
-            className="text-white bg-blue hover:bg-darkblue px-4 py-2 text-sm"
-            type="submit"
-          >
-            FILTER
-          </button> */}
         </div>
       </form>
     </div>
