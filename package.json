@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://mrwilliama.github.io/react-portfolio-app/index.html",
+  "homepage": "http://mrwilliama.github.io/react-portfolio-app",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -26,7 +26,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "twbuild": "tailwindcss -i ./src/input.css -o ./src/css/main.css",
     "twwatch": "tailwindcss -i ./src/input.css -o ./src/main.css --watch",
     "predeploy": "npm run build",

@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar handleClick={handleClick} nav={nav} setNav={setNav} />
       <div class="container w-[90%] m-auto sm:px-3 md:px-12 lg:px-28">
         <Routes>
