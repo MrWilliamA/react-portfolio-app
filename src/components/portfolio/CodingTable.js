@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import Data from "./githubLinks.json";
 import GitList from "./GitList";
 import TableFilter from "./TableFilter";
 
@@ -10,15 +11,12 @@ const Portfolio = () => {
   // const [query, setQuery] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3004/entries")
-      .then((response) => response.json())
-      .then((data) => {
-        setGitLink(data);
-        setIsLoading(false);
-
-        let gitList = data.filter((git) => git.cat === filter);
-        setFilteredGits(gitList);
-      });
+    let gitData = Data.entries;
+    setGitLink(gitData);
+    setIsLoading(false);
+    let gitList =
+      filter === "" ? gitData : gitData.filter((git) => git.cat === filter);
+    setFilteredGits(gitList);
   }, [filter]);
 
   if (isLoading) return <h1>Loading!</h1>;

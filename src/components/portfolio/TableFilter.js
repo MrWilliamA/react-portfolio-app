@@ -34,6 +34,7 @@ const TableFilter = ({ onFilter, filter, setFilter, data }) => {
             value={filter}
             onChange={handleChange}
           >
+            <option value="">All</option>
             {options.map((option) => (
               <option value={option}>{option}</option>
             ))}
